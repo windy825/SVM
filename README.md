@@ -35,7 +35,7 @@ fish-eye 렌즈를 활용한 차량 **TOP VIEW 및 BOWL VIEW** 개발 합니다.
 
 ### :rocket:  저장소 index
 
-[**Computer Graphics 관련 연구**]()
+[**Computer Graphics 관련 연구**](https://github.com/windy825/SVM/tree/master/Computer%20Graphics)
 
 - 2차원, 3차원 좌표계
 - 회전행렬 + 기저변환
