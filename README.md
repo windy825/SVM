@@ -1,4 +1,4 @@
-# :rocket: SVM 프로젝트
+# :car: SVM 프로젝트
 fish-eye 렌즈를 활용한 차량 **TOP VIEW 및 BOWL VIEW** 개발 합니다.
 
 <br>
@@ -30,3 +30,16 @@ fish-eye 렌즈를 활용한 차량 **TOP VIEW 및 BOWL VIEW** 개발 합니다.
 카메라 영상 보정 및 합성을 통한 탑뷰를 정밀하게 구현하여 기술을 터득한뒤, 
 
 향후 목표인 자율주행 및 자율비행 직무에 활용하겠습니다.
+
+<br>
+
+### :rocket:  저장소 index
+
+[**Computer Graphics 관련 연구**]()
+
+- 2차원, 3차원 좌표계
+- 회전행렬 + 기저변환
+- Camera Calibration 
+- Pin-hole Camera Calibration Basics
+- 삼각함수
+- 

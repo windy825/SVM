@@ -64,13 +64,21 @@ https://www.mathworks.com/help/vision/ug/camera-calibration.html
 
 `center of projection - 2D image plane - 3D world space`
 
+![image](https://user-images.githubusercontent.com/89068148/195988800-4ea537fe-cbdb-4ae9-91a3-bc7e9536910b.png)
+
+Virtual image plane 을 기반으로 설명한다.
+
+반전되기 전의 이미지 투영이기 때문에 쉽게 수식 정의 가능함. 
+
+(원래 image plane과 focial length도 같음)
+
 ![image](https://user-images.githubusercontent.com/89068148/195980388-e15e9a78-cd08-44c6-9ddd-de8c8805f902.png)
 
 
 
-- `촬영자 - 핀홀 - 2D 픽셀 공간 - 3D 월드 공간` 의 순서로 배치
+- **[가정 1]** 촬영자 - 핀홀 - 2D 픽셀 공간 - 3D 월드 공간 의 순서로 배치
 
-- 3D 월드에서 반사된 수많은 광선은 핀홀로 수렴된다.
+- **[가정 2]** 8 3D 월드에서 반사된 수많은 광선은 핀홀로 수렴
 
   `center of projection` `camera center`
 
@@ -115,9 +123,25 @@ image plane : 카메라에 맺히는 2D 픽셀 좌표계
 
 #### 3) 변환행렬 구하기 (caemra calibration)
 
-- **extrinsic matrix** (3D world coordinate system >> 3D camera coordinate system)
+<br>
 
-  
+**extrinsic matrix** (3D world coordinate system >> 3D camera coordinate system)
+
+1. 좌표계의 기저 변환을 파악
+
+   
+
+2. 월드 좌표계에서 카메라의 방향과 위치 획득
+
+   `rotation`과 `translation`에 대한 변환을 파악
+
+   world space 상에서의 좌표 기준이 있고 그 좌표계에서 카메라가 어느정도 
+
+   회전(rotation)되고, 이동(translation)하였는지 알면 카메라 좌표계 상에서의 
+
+   위치 변화를 알 수 있다.
+
+3. 
 
 - **intrinsic matrix** (3D camera coordinate system >> 2D image plane)
 
