@@ -3,13 +3,19 @@ fish-eye 렌즈를 활용한 **TOP VIEW 및 BOWL VIEW** 개발 합니다.
 렌즈 FOV : 수직 150, 수평 187
 <br>
 
-<2022.10.28>
+<br><2022.11.03> 진행상황 공유 : 첫 정합 테스트가 실시 되었습니다.
+
+![surround3](https://user-images.githubusercontent.com/89068148/199689801-a9e7f260-26f1-452a-a1fe-f030cae9f403.jpg)
+
+<br>
+
+<br>
+
+<2022.10.28> 진행상황 공유 : calibration을 통한 왜곡 보정 및 기구설치 파트
 
 ![그림1](https://user-images.githubusercontent.com/89068148/198588073-020692a1-3c87-4a12-8439-fc6851a12aa4.png)
 
-현재 아직 진행중인 프로젝트로, calibration을 통한 왜곡 보정 및 기구설치 파트까지 
 
-마무리 되었습니다.
 
 추후 상세 개발 내용 추가 하겠습니다.
 
