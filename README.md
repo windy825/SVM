@@ -1,8 +1,10 @@
 # :car: SVM 프로젝트
 fish-eye 렌즈를 활용한 **TOP VIEW 및 BOWL VIEW** 개발 합니다.
 렌즈 FOV : 수직 150, 수평 187
+python, c++ 
+openCV, openGL
 <br>
-
+<br>
 <br><2022.11.03> 진행상황 공유 : 첫 정합 테스트가 실시 되었습니다.
 
 ![surround3](https://user-images.githubusercontent.com/89068148/199689801-a9e7f260-26f1-452a-a1fe-f030cae9f403.jpg)
